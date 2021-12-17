@@ -1,0 +1,150 @@
+/*===DEFINICOES===*/
+html {
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    background-color: rgb(255, 255, 255);
+}
+body a{
+    text-decoration: none;
+}
+
+/*===TOPO===*/
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2vw 9vw;
+    background-color: #F3FCF7;
+}
+
+header h1 a {
+    display: flex;
+    font-weight: 600;
+    font-size: 27px;
+    color: #07c268;
+    padding: 1vw 0.5vw;
+}
+
+header ul {
+    color: #1D1D1F;
+    margin-top: 28px;
+    display: flex;
+}
+
+header ul li a {
+    color: #1D1D1F;
+    margin: 2vw;
+    font-weight: 200;
+}
+
+header ul li a:hover {
+    color: #07c268;
+    font-weight: 300;
+}
+
+/*=== BANNER ===*/
+
+section.banner {
+    padding: 6vw 0 16vw 9vw;
+    background: url(img/backbannerr.png) no-repeat top right;
+}
+
+section.banner h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #1D1D1F;
+    width: 28vw;
+    line-height: 1.3em;
+}
+
+
+section.banner p {
+    font-size: 16px;
+    margin: 3vw 0vw 6vw;
+    width: 38vw;
+    line-height: 1.3em;
+    color: #1D1D1F;
+}
+
+section.banner a {
+    background: #07c268;
+    padding: 25px 40px;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+
+
+/*=== SERVICOS ===*/
+section.servicos {
+    text-align: center;
+    display: flex;
+}
+
+section.servicos> div{
+    text-align: left;
+    display: flex;
+    padding: 20px 0 0 0;
+}
+
+section.servicos h3 {
+    font-size: 2em;
+    color: #1D1D1F;
+}
+
+
+section.servicos p {
+    margin: 8px auto;
+    width: 20vw;
+    color: #1D1D1F;
+}
+
+
+/*=== BENEFICIOS ===*/
+
+section.beneficios {
+    padding: 9vw;
+}
+
+
+section.beneficios h6 {
+    margin-left: 600px;
+    width: 500vw;
+    margin-top: -500px;
+    float: left;
+}
+
+section.beneficios h1 {
+    font-size: 50px;
+    font-weight: 700;
+    color: #1D1D1F;
+    width: 35vw;
+    line-height: 1.3em;
+    margin-left: 600px;
+    margin-top: -450px;
+
+}
+
+section.beneficios ul {
+    color: #1D1D1F;
+    margin-top: 50px;
+    margin-left: 600px;
+}
+
+section.beneficios ul li img {
+    width: 40px;
+}
+
+/*=== ESPECIAIS ===*/
+
+
+section.especiais p a {
+    background: #07c268;
+    padding: 25px 40px;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    margin-top: 500px;
+}
